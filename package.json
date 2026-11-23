@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": { "build": "tsc", "start": "node dist/server.js" },
-  "dependencies": { "express": "^4.21.2", "pg": "^8.13.1" },
+  "dependencies": { "express": "^4.21.2", "express-refund-validator-utils": "^2.3.1", "pg": "^8.13.1" },
   "devDependencies": { "typescript": "^5.6.3", "@types/express": "^5.0.0", "@types/pg": "^8.11.10" }
 }
